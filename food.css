@@ -6,8 +6,7 @@
 
 header {
   display: flex;
-  height: auto;
-  border: 1px solid black;
+  height: 12vh;
   padding: 10px;
   position: fixed;
   top: 0;
@@ -18,10 +17,12 @@ header {
 
 .img-logo {
   max-width: 100%;
-  height: auto;
+  height: 10vh;
   margin-left: 50px;
 }
-
+.img-logo img {
+  height: 8vh;
+}
 .img-logo:nth-of-child(2) {
   max-width: 100%;
   height: auto;
@@ -29,11 +30,11 @@ header {
 }
 
 .logo {
-  width: 75px;
+  width: 50px;
 }
 
 main {
-  margin-top: 15vh;
+  margin-top: 13vh;
 }
 
 .food-details {
